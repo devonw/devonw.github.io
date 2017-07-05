@@ -1,0 +1,21 @@
+$font-stack:    Helvetica, sans-serif;
+
+
+
+
+.nameTitleWrap {
+  opacity: 1;
+  animation: fade 2s linear;
+  display: flex;
+  flex-direction: column;
+  font-family: $oswald;
+  position: relative; 
+  top: 6em;
+  left: 5em;
+  // font: 100% $font-stack;
+  color: $primary-color;
+  font-size: 2em;      
+}
+
+
+  

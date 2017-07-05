@@ -1,0 +1,33 @@
+/* 
+The main file should be the only Sass file from the whole code base not to begin with an underscore. 
+This file should not contain anything but `@import` and comments.
+*/
+
+@charset 'UTF-8';
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+$oswald: 'Oswald', sans-serif;
+$primary-color: #CEC9C9;
+
+
+// 1. Configuration and helpers
+
+// 2. Base stuff
+
+// 3. Layout-related sections
+
+  
+
+// 4. Components
+
+@keyframes fade {
+  0%{ opacity: 0 }
+  100% { opacity: 1 }
+}
+// 5. Page-specific styles
+@import
+  'pages/header',
+  'pages/aboutme',
+  'pages/home';
+  
