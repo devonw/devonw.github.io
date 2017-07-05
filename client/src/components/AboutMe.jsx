@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
   render() {
     return (
       <div className="aboutMe">
-        I am full stack software engineer who enjoys writing code <br/> and fucking shit up. Take a look at some of my projects below
+        I am full stack software engineer who enjoys writing code <br/> to make things work. Take a look at some of my projects below
       </div>
     )
   }
