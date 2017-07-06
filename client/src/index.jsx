@@ -4,6 +4,7 @@ import '../../stylesheets/main.scss'
 
 import Header from './components/header.jsx';
 import AboutMe from './components/AboutMe.jsx';
+import Projects from './components/Projects.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -14,9 +15,12 @@ class App extends React.Component {
   }
   render() {
     return(
-      <div className="wrapper">
-        <Header/>
-        <AboutMe/>
+      <div>
+        <div className="wrapper">
+          <Header/>
+          <AboutMe/>
+        </div>
+          <Projects/>
       </div>
 
     )

@@ -1,0 +1,29 @@
+.projectWrapper {
+  opacity: .75;
+  animation: fade 2s linear;
+  color: $primary-color;
+  height: 40em;
+  font-family: $oswald;
+  background-color: $projects-background-color; 
+}
+
+
+.yinkTitle {
+  font-size: 3em;
+}
+
+.aProject {
+  position: relative;
+  left: 16em;
+}
+
+.projectsTitle {
+  text-align: center;
+  font-size: 4em;
+  text-decoration: underline;
+}
+
+.projectDescription {
+  display: flex;
+  flex-direction: column;
+}

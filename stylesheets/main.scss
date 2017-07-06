@@ -9,7 +9,7 @@ This file should not contain anything but `@import` and comments.
 
 $oswald: 'Oswald', sans-serif;
 $primary-color: #CEC9C9;
-
+$projects-background-color: #533427;
 
 // 1. Configuration and helpers
 
@@ -23,10 +23,11 @@ $primary-color: #CEC9C9;
 
 @keyframes fade {
   0%{ opacity: 0 }
-  100% { opacity: 1 }
+  100% { opacity: 100% }
 }
 // 5. Page-specific styles
 @import
+  'pages/projects',
   'pages/header',
   'pages/aboutme',
   'pages/home';
