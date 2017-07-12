@@ -4,7 +4,8 @@ import '../../stylesheets/main.scss'
 
 import Header from './components/header.jsx';
 import AboutMe from './components/AboutMe.jsx';
-import Projects from './components/Projects.jsx'
+import Projects from './components/Projects.jsx';
+import PortfolioLinks from './components/PortfolioLinks.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -17,6 +18,7 @@ class App extends React.Component {
     return(
       <div>
         <div className="wrapper">
+          <PortfolioLinks/>
           <Header/>
           <AboutMe/>
         </div>

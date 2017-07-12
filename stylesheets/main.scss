@@ -20,6 +20,9 @@ $projects-background-color: #533427;
   
 
 // 4. Components
+body {
+  width: 100%;
+}
 
 @keyframes fade {
   0%{ opacity: 0 }
@@ -27,6 +30,7 @@ $projects-background-color: #533427;
 }
 // 5. Page-specific styles
 @import
+  'pages/portfoliolinks',
   'pages/projects',
   'pages/header',
   'pages/aboutme',

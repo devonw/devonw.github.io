@@ -4,14 +4,16 @@ $font-stack:    Helvetica, sans-serif;
 
 
 .nameTitleWrap {
+  width: 50%;
   opacity: 1;
   animation: fade 2s linear;
   display: flex;
   flex-direction: column;
   font-family: $oswald;
   position: relative; 
-  top: 4em;
+  top: 6em;
   left: 3.3em;
+  position: fixed;
   // font: 100% $font-stack;
   color: $primary-color;
   font-size: 3em;      

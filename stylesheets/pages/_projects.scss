@@ -1,20 +1,26 @@
 .projectWrapper {
-  opacity: .75;
+  position: absolute;
+  opacity: 1;
   animation: fade 2s linear;
   color: $primary-color;
-  height: 40em;
+  height: 70em;
   font-family: $oswald;
-  background-color: $projects-background-color; 
+  background-color: $projects-background-color;
+  width: 100%; 
 }
 
 
-.yinkTitle {
+.projectTitle {
   font-size: 3em;
 }
 
 .aProject {
   position: relative;
-  left: 16em;
+  width: 50%;
+  left: 25em;
+  padding-top: 5em;
+  padding-left: 5em;
+
 }
 
 .projectsTitle {
@@ -26,4 +32,19 @@
 .projectDescription {
   display: flex;
   flex-direction: column;
+}
+
+.projectImage {
+  opacity: .25;
+  height: 15em;
+  width: 30em;
+}
+
+.projectImage:hover {
+  opacity: 1;
+
+}
+
+.link {
+  color: #eddf90;
 }
