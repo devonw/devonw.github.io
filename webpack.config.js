@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|gif|png|JPG)$/,
-        include: (__dirname, '/assets'),
+        include: (__dirname, 'client/dist/assets'),
         loader: 'file-loader',
         query: {
           name: '/assets/[name].[ext]'
